@@ -1,0 +1,44 @@
+:host{
+    height:100%;
+    width:100%;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+}
+
+app-section{
+    flex:auto;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-54%,-50%);
+    
+    width:20%;
+    height:auto;
+}
+
+header{
+    position: absolute;
+    top: 10%;
+    left:50%;
+    transform: translate(-54%,-50%);
+
+    font-size:40px;
+}
+
+button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: steelblue;
+    color: white;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

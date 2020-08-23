@@ -1,0 +1,22 @@
+
+<!-- 
+<section   *ngFor="let element of _data.gifs; let i = index;" [style.left]="i*75 + 'px'" >
+
+    <div #divs ></div>
+
+    <img #imgs [src]="element.url">
+</section> -->
+
+
+<button [routerLink]="['/']" >Retour Gif</button>
+
+
+<section  fxFlex="8"  *ngFor="let element of array; let i = index;" >
+
+    <div #divs >
+        {{_data.gifs[i].counter}}
+        <img #imgs [src]="element.url">
+    </div>
+
+
+</section> 

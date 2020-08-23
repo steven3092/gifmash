@@ -1,0 +1,9 @@
+<app-section appFadeIn style="background-color: lightpink;" [gif]="_data.preview[0]" fxFlex  ></app-section>
+
+<app-section appFadeIn style="background-color: lightblue;" [gif]="_data.preview[1]" fxFlex></app-section>
+
+<img src="./../assets/versus.svg" />
+
+<header (click) ="speak()">{{ title | uppercase}}</header>
+
+<button  [routerLink]="['/score']" >Voir le score</button>

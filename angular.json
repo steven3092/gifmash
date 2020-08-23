@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gifmash"
+    }
+  },
+  "defaultProject": "gifmash",
+  "cli": {
+    "analytics": false
+  }
 }
