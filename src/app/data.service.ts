@@ -37,7 +37,7 @@ export class DataService {
   };
 
   public retrieveGifs(): Observable<any> {
-    return this.http.get('http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC').pipe(map((x: any) => x.data)
+    return this.http.get('https://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC').pipe(map((x: any) => x.data)
     )
   }
 
